@@ -60,8 +60,8 @@ layui.define(["cropper", "jquery"], function (exports) {
             imgWidth = options.imgWidth || 300,
             success = options.success;
 
-        //在uploadElem后追加弹框代码
-        $(uploadElem).after([
+        //在body末尾追加弹框代码
+        $('body').append([
             '<!--图片裁剪框 start-->',
             '<div style="display: none" class="tailoring-container">',
             '    <div class="tailoring-content">',
@@ -199,7 +199,7 @@ layui.define(["cropper", "jquery"], function (exports) {
 
     //输出接口
     exports(MOD_NAME, {
-        v: "1.0.0",
+        v: "1.0.1",
         render: render,
         base64ToBlob: base64ToBlob,
     });

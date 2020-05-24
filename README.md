@@ -64,7 +64,7 @@ render函数接收object对象完成一些参数设置：
   
   success传递两个参数：裁剪后的图片的base64(image/png)、base64的大小（单位Kb）
 
-## Demo
+## 示例
 
 index.html是示例，不能直接运行它，用nginx或者python启动一个web服务：
 
@@ -78,4 +78,6 @@ python2 -m SimpleHTTPServer 5000
 
 ### ps
 
-如果你要更新cropper.js版本，在上面找到其仓库，下载dist中cropper.js(UMD)，参考Layui第三方组件规范改造UMD（$固定为layui.jquery即可）
+- 如果你要更新cropper.js版本，在上面找到其仓库，下载dist中cropper.js(UMD)，参考Layui第三方组件规范改造UMD（$固定为layui.jquery即可）
+
+- 在线Demo：[picbed图床测试站的个人资料示例](http://picbed.demo.saintic.com/login?next=/control/myself#!profile)
