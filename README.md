@@ -88,5 +88,5 @@ python2 -m SimpleHTTPServer 5000
 
 - 如果你要更新cropper.js版本，在上面找到其仓库，下载dist中cropper.js(UMD)，参考Layui第三方组件规范改造UMD（$固定为layui.jquery即可）
 
-- 在线Demo：[picbed图床测试站的个人资料示例](http://picbed.demo.saintic.com/login?next=/control/myself)
+- 在线Demo：[picbed图床测试站的个人资料示例](http://demo.picbed.pro/login?next=/control/myself)
 
